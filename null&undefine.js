@@ -16,5 +16,16 @@ const person = {
     phone: 123456,
 }
 
-console.log(person.name, person.phone, person.id)
+const a = null;
+// console.log(a)
+// console.log(person.name, person.phone, person.id)
+
+
+let num ;
+if(num == null){
+    console.log(num, 'is null')
+}
+else{
+    console.log(num, 'null is not null')
+}
 
